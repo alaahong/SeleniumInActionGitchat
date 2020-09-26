@@ -15,7 +15,6 @@ public class DriverBase {
     private static ThreadLocal<DriverFactory> driverFactoryThread;
 
     @BeforeAll
-//    @BeforeSuite(alwaysRun = true)
     public static void instantiateDriverObject() {
         System.out.println("browser:" + System.getProperty("browser"));
         System.out.println("webdriver.chrome.driver:" + System.getProperty("webdriver.chrome.driver"));

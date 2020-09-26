@@ -5,12 +5,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.opera.OperaDriver;
-import org.openqa.selenium.opera.OperaOptions;
 import org.openqa.selenium.safari.SafariDriver;
-
-import java.util.Collections;
-import java.util.HashMap;
 
 /**
  * @Author: Ian
@@ -25,6 +20,7 @@ public class SafariDriverTest {
     public void setup() throws Exception {
         driver = new SafariDriver();
     }
+
     @Disabled
     @Test
     public void test() {
